@@ -11,13 +11,6 @@
 - **本地数据管理**：自动保存到浏览器 `localStorage`，支持导出/导入 JSON 备份。
 - **撤销重做**：最多保留 30 步历史，误操作可一键回退。
 
-## 技术栈
-
-- Vite
-- 原生 JavaScript（ES Modules）
-- 纯 CSS 自定义样式
-- 浏览器 `localStorage` 本地持久化
-
 ## 运行与构建
 
 ```bash
@@ -25,20 +18,6 @@ npm install
 npm run dev      # 开发服务器 http://localhost:5173
 npm run build    # 输出 dist/ 静态文件
 npm run preview  # 本地预览构建产物
-```
-
-## 项目结构
-
-```
-smart-resume/
-├── index.html
-├── src/
-│   ├── main.js          # 应用入口与交互主控
-│   ├── styles.css       # 全局样式
-│   ├── data/            # 默认简历数据与样例
-│   ├── lib/             # 分析器、存储、渲染、模板
-│   └── assets/          # 静态资源
-└── dist/                # 构建产物
 ```
 
 ## 使用说明
